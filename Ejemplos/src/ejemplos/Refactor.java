@@ -9,7 +9,7 @@ package ejemplos;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Refactor {
 
     /**
      * @param args the command line arguments
@@ -19,7 +19,11 @@ public class Ejemplo01 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
-
+        System.out.println(arreglo1[0]);
+        System.out.println(arreglo1[1]);
+        System.out.println(arreglo1[2]);
+        System.out.println(arreglo1[3]);
+        System.out.println(arreglo1[4]);
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
 
@@ -28,7 +32,7 @@ public class Ejemplo01 {
 
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
-        
+
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
     }

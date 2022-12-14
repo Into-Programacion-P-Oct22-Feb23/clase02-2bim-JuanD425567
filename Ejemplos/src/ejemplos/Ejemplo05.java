@@ -18,7 +18,7 @@ public class Ejemplo05 {
         // Declarar y generar arreglos en Java
 
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
+        int[] arreglo1 = new int[15];
         // Se asigna valores al arreglo
         arreglo1[0] = 10;
         arreglo1[1] = 30;
